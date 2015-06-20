@@ -1,0 +1,27 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+jquery
+twbs:bootstrap
+# accounts-ui
+ian:accounts-ui-bootstrap-3
+accounts-password
+accounts-facebook
+iron:router
+
+mrt:moment
+# appcache
+mrt:flash-messages
+
+aldeed:collection2
+alanning:roles
+less
+qnub:emojione
+fortawesome:fontawesome
+tmeasday:presence
+
+vazco:universe-html-purifier

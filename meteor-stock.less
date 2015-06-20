@@ -1,0 +1,53 @@
+#chat-window {
+
+  height: 700px;
+  overflow-y: scroll;
+
+  li {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    height: 22px;
+    list-style: none;
+
+    span {
+      display: table-cell;
+      vertical-align: top;
+    }
+
+  }
+
+  .username {
+    font-weight: bold;
+    color: cadetblue;
+
+    .timestamp {
+      color: black;
+      font-weight: normal;
+    }
+  }
+
+  .username:after {
+    content: ": ";
+  }
+}
+
+#toggle-online-users {
+  position: absolute;
+  right: 20px;
+  z-index: 10;
+}
+
+#online-users {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+#chat-input text {
+
+}
